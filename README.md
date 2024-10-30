@@ -105,7 +105,7 @@
 ### EDA 
 #### [1] 팬데믹 이후 트렌드: BPM, Duration, Genre
 <p align = 'center'>
-    <img src = 'image.png'><br>
+    <img src = 'README_image/image.png'><br>
 </p>
 
 >1. 2019년 팬데믹 이후 BPM은 급속도로 증가, 노래 길이는 급격히 감소<br>
@@ -114,7 +114,7 @@
 >4. 단순히 2019년에 인기를 얻은 것으로 그친 것이 아니라, 새로운 트렌드를 이끌어 나감<br>
 
 <p align = 'center'>
-    <img src = 'image-1.png'><br>
+    <img src = 'README_image/image-1.png'><br>
 </p>
 
 *장르의 경우, 모든 연도의 1, 2위가 POP, 랩/힙합이므로 타장르의 변화를 시각화하기 위해 해당 값 제거*<br>
@@ -131,14 +131,14 @@
 ##### *<b>2년 주기로 밝아지는 컬러 트렌드 & 레드의 강세</b>*
 
 <p align = 'center'>
-    <img src = 'image-2.png'><br>
+    <img src = 'README_image/image-2.png'><br>
 </p>
 
 > 1. 짝수에서 홀수로 넘어가는 겨울에 RGB값이 모두 치솟는 경향
 > 2. 전반적으로 R 값이 상위에 위치
 
 <p align = 'center'>
-    <img src = 'image-3.png'><br>
+    <img src = 'README_image/image-3.png'><br>
 </p>
 
 >HSL 기반 텍스트 데이터를 집계한 결과, 'RED'의 비율이 약 36% 차지 <br>
@@ -146,8 +146,8 @@
 ##### *<b>점점 진해지고 있는 컬러 트렌드</b>*
 
 <figure class="half">  
-    <img src="image-4.png">  
-    <img src="image-5.png"> 
+    <img src="README_image/image-4.png">  
+    <img src="README_image/image-5.png"> 
 </figure>
 
 >1. 지난 10년간의 RGB값은 시간을 기준으로 기울기는 작다고 볼 수 있으나, 모두 꾸준히 음의 상관관계를 갖고 있다. 
@@ -157,7 +157,7 @@
 ##### *<b>10년 간 빌보드 HOT100의 긍정/부정 비율</b>*
 
 <figure align = 'center'>  
-    <img src="image-6.png">  
+    <img src="README_image/image-6.png">  
 </figure>
 
 > 10년 간의 빌보드 HOT100 가사를 감성 분석한 결과, 종합점수 기준 양수인 긍정 비율은 61.2%, 음수인 부정 비율은 38.8%로 긍정적인 노래가 많은 것으로 나타났다. 
@@ -165,7 +165,7 @@
 ##### *<b>월별 감성 종합점수 평균</b>*
 
 <figure align = 'center'>  
-    <img src="image-7.png">  
+    <img src="README_image/image-7.png">  
 </figure>
 
 > [계절성 확인]
@@ -175,7 +175,7 @@
 ##### *<b>순위가 높아질수록 극단적인 노래들</b>*
 
 <figure align = 'center'>  
-    <img src="image-8.png">  
+    <img src="README_image/image-8.png">  
 </figure>
 
 *10년 간의 빌보드 HOT100 곡들의 순위를 5그룹(1~20, 21~40, ...)으로 클러스터링 한 뒤, 순위 그룹 간 감정 종합 점수 분포 확인*
@@ -185,7 +185,7 @@
 ##### *<b>그럼에도 사랑받는 긍정적인 노래들</b>*
 
 <figure align = 'center'>
-    <img src = 'image-9.png'>
+    <img src = 'README_image/image-9.png'>
 </figure>
 
 > 상위 그룹일수록 평균 감성 점수가 높은 것을 확인(평균 감성 점수가 높다 = 긍정적인 노래가 많음)
@@ -193,7 +193,7 @@
 ##### *<b>상위 20개 장르의 평균 감성 점수 비교</b>*
 
 <figure align = 'center'>
-    <img src = 'image-10.png'>
+    <img src = 'README_image/image-10.png'>
 </figure>
 
 > 장르와 감성 점수의 관계는 확인할 수 없었다. 장르에 따라붙는 이미지는 편견일 뿐이다. 
@@ -201,8 +201,8 @@
 #### [3] 가사 TF-IDF 분석<br>
 
 <figure class="half">  
-    <img src="image-11.png">  
-    <img src="image-12.png"> 
+    <img src="README_image/image-11.png">  
+    <img src="README_image/image-12.png"> 
 </figure>
 
 > 대부분의 가사에서 TF-IDF 점수가 낮은 일반 단어가 주로 나타났고,높은 점수의 키워드 단어는 매우 적은 수로 나타났다. <br>
@@ -227,7 +227,7 @@
     > 부정적인 감정이나 특정한 주제를 포함하고, 리듬/템포 등과 같은 음악적 요소를 이용한다면 충분히 TOP20 안에 들 것이다. 
 #### Feature Importance 
 <figure align = 'center'>
-    <img src = 'image-13.png'>
+    <img src = 'README_image/image-13.png'>
 </figure>
 
 
@@ -256,7 +256,7 @@
     * 트리기반: (기본) Decision Tree, (앙상블) Random Forest
 
 <figure align = 'center'>
-    <img src = 'image-14.png'>
+    <img src = 'README_image/image-14.png'>
 </figure>
 
 #### 최종 모델
@@ -276,51 +276,51 @@
 
 ##### Genre
 <figure align = 'center'>
-    <img src = 'image-15.png'>
+    <img src = 'README_image/image-15.png'>
 </figure>
 
 ##### Week
 <figure align = 'center'>
-    <img src = 'image-16.png'>
+    <img src = 'README_image/image-16.png'>
 </figure>
 
 ##### BPM
 <figure align = 'center'>
-    <img src = 'image-17.png'>
+    <img src = 'README_image/image-17.png'>
 </figure>
 
 ##### Duration
 <figure align = 'center'>
-    <img src = 'image-18.png'>
+    <img src = 'README_image/image-18.png'>
 </figure>
 
 ##### Color: Red
 <figure align = 'center'>
-    <img src = 'image-19.png'>
+    <img src = 'README_image/image-19.png'>
 </figure>
 
 ##### Color: Green
 <figure align = 'center'>
-    <img src = 'image-20.png'>
+    <img src = 'README_image/image-20.png'>
 </figure>
 
 ##### Color: Blue
 <figure align = 'center'>
-    <img src = 'image-21.png'>
+    <img src = 'README_image/image-21.png'>
 </figure>
 
 <figure align = 'center'>
-    <img src = 'image-22.png'>
+    <img src = 'README_image/image-22.png'>
 </figure>
 
 ##### compound
 <figure align = 'center'>
-    <img src = 'image-23.png'>
+    <img src = 'README_image/image-23.png'>
 </figure>
 
 ##### Featuring
 <figure align = 'center'>
-    <img src = 'image-24.png'>
+    <img src = 'README_image/image-24.png'>
 </figure>
 
 
@@ -344,7 +344,7 @@
 * 감성: 매우 긍정적
 * 피쳐링: 없이 진행
 <figure align = 'center'>
-    <img src = 'image-25.png'>
+    <img src = 'README_image/image-25.png'>
 </figure>
 
 ## 8. 보완점, 발전 방향
